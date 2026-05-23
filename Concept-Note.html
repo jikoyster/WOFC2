@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TerraSync Corridor Initiative</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #07130f;
+      color: #f5f7f6;
+    }
+
+    .glass {
+      background: rgba(255,255,255,0.04);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .gradient-text {
+      background: linear-gradient(to right, #ffffff, #87f5b0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-bg {
+      background:
+        radial-gradient(circle at top left, rgba(34,197,94,0.25), transparent 40%),
+        radial-gradient(circle at bottom right, rgba(16,185,129,0.15), transparent 30%),
+        #07130f;
+    }
+
+    .section-divider {
+      border-color: rgba(255,255,255,0.08);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="fixed top-0 left-0 w-full z-50 glass">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div>
+        <h1 class="text-xl font-bold tracking-wide">WOFC</h1>
+      </div>
+
+      <nav class="hidden md:flex gap-8 text-sm font-medium text-gray-300">
+        <a href="#about" class="hover:text-white transition">About</a>
+        <a href="#problem" class="hover:text-white transition">Problem</a>
+        <a href="#solution" class="hover:text-white transition">Solution</a>
+        <a href="#framework" class="hover:text-white transition">Framework</a>
+        <a href="#vision" class="hover:text-white transition">Vision</a>
+      </nav>
+
+      <a href="#contact"
+         class="bg-green-500 hover:bg-green-400 text-black px-5 py-2 rounded-full font-semibold transition">
+         Become an Orchestrator
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero-bg min-h-screen flex items-center pt-28">
+    <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-14 items-center">
+
+      <div>
+        <p class="uppercase tracking-[0.25em] text-green-300 text-sm mb-5">
+          White Oleander Farm Collective × TerraSync
+        </p>
+
+        <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-8">
+          From Fragmented Farms
+          <span class="gradient-text">to Functional Corridors</span>
+        </h1>
+
+        <p class="text-lg text-gray-300 leading-relaxed mb-10 max-w-xl">
+          A cooperative-led agricultural-industrial corridor initiative designed
+          to synchronize rural production, biomass utilization, governance,
+          and industrial fulfillment through modular coordination infrastructure.
+        </p>
+
+        <div class="flex flex-wrap gap-4">
+          <a href="#solution"
+             class="bg-green-500 text-black font-semibold px-8 py-4 rounded-full hover:bg-green-400 transition">
+            Explore Initiative
+          </a>
+
+          <a href="#framework"
+             class="border border-white/20 px-8 py-4 rounded-full hover:bg-white hover:text-black transition">
+            Deployment Framework
+          </a>
+        </div>
+      </div>
+
+      <!-- IMAGE PLACEHOLDER -->
+      <div class="glass rounded-3xl p-8 h-[500px] flex items-center justify-center">
+        <div class="text-center">
+          
+          <p class="text-gray-400 text-sm uppercase tracking-widest">
+            <div class="rounded-3xl">
+  <img
+    src="img/WOFC.png"
+    alt="Agricultural Corridor"
+    class="h-fit object-fit"
+  />
+</div>
+          </p>
+          <p class="text-gray-500 mt-3">
+            corridor, agriculture,
+            or infrastructure imagery
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-28 border-t section-divider">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="max-w-3xl mb-16">
+        <p class="text-green-300 uppercase tracking-widest text-sm mb-4">
+          Executive Summary
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-8">
+          Building Rural Coordination Infrastructure
+        </h2>
+
+        <p class="text-gray-300 text-lg leading-relaxed">
+          TerraSync proposes a territorial coordination model that transforms
+          fragmented agricultural systems into synchronized operational corridors.
+          Beginning with standardized 10-farmer atomic units, the initiative
+          combines governance structures, sensing infrastructure,
+          forecasting systems, and industrial coordination layers
+          into a unified operational ecosystem.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <div class="glass rounded-3xl p-8">
+          <h3 class="text-2xl font-bold mb-4">Governance</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Farmer onboarding, coordination continuity,
+            and modular territorial governance through
+            Roots and Rise Basecamp.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <h3 class="text-2xl font-bold mb-4">Visibility</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Shared operational visibility using Gomboc sensing nodes,
+            Aether forecasting systems,
+            and synchronized corridor monitoring.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <h3 class="text-2xl font-bold mb-4">Industrial Alignment</h3>
+          <p class="text-gray-400 leading-relaxed">
+            Coordinated biomass aggregation and activated carbon
+            fulfillment pathways for industrial applications.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section id="problem" class="py-28 border-t section-divider bg-black/20">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+        <div>
+          <p class="text-green-300 uppercase tracking-widest text-sm mb-4">
+            The Problem
+          </p>
+
+          <h2 class="text-4xl md:text-5xl font-bold mb-8">
+            Fragmentation as Economic Loss
+          </h2>
+
+          <div class="space-y-6 text-gray-300 leading-relaxed">
+            <p>
+              Rural economies often possess the labor,
+              biomass, and productive capacity required
+              for industrial participation — but lack
+              synchronized coordination infrastructure.
+            </p>
+
+            <p>
+              Coconut byproducts such as shell, husk,
+              and brown fiber remain undervalued due to weak
+              post-harvest systems, disconnected timing,
+              and unreliable throughput visibility.
+            </p>
+
+            <p>
+              The result is inconsistent industrial supply,
+              poor forecasting continuity,
+              and reduced bargaining leverage across territories.
+            </p>
+          </div>
+        </div>
+
+        <!-- PLACEHOLDER -->
+        <div class="glass rounded-3xl p-10 h-[420px] flex items-center justify-center">
+          <div class="text-center">
+            <span class="text-6xl block mb-5">🌱</span>
+            <h3 class="text-2xl font-semibold mb-3">
+              Rural Infrastructure Placeholder
+            </h3>
+            <p class="text-gray-500">
+              Replace with agriculture or supply-chain imagery
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section id="solution" class="py-28 border-t section-divider">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="text-center max-w-4xl mx-auto mb-20">
+        <p class="text-green-300 uppercase tracking-widest text-sm mb-4">
+          Proposed Response
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-8">
+          A Layered Coordination Architecture
+        </h2>
+
+        <p class="text-gray-400 text-lg leading-relaxed">
+          TerraSync introduces a governance-first deployment model
+          where infrastructure emerges gradually through synchronized
+          operational visibility and territorial coordination.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <div class="glass rounded-3xl p-8">
+          <div class="text-4xl mb-5">🌿</div>
+          <h3 class="text-xl font-bold mb-4">Roots & Rise</h3>
+          <p class="text-gray-400">
+            Governance emergence and farmer onboarding framework.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <div class="text-4xl mb-5">📡</div>
+          <h3 class="text-xl font-bold mb-4">Gomboc Nodes</h3>
+          <p class="text-gray-400">
+            Environmental sensing and biological visibility infrastructure.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <div class="text-4xl mb-5">🧠</div>
+          <h3 class="text-xl font-bold mb-4">Aether Protocol</h3>
+          <p class="text-gray-400">
+            Digital production state and throughput forecasting systems.
+          </p>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <div class="text-4xl mb-5">🔗</div>
+          <h3 class="text-xl font-bold mb-4">Cassandra Layer</h3>
+          <p class="text-gray-400">
+            Fulfillment synchronization and industrial coordination.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK -->
+  <section id="framework" class="py-28 border-t section-divider bg-black/20">
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="max-w-3xl mb-16">
+        <p class="text-green-300 uppercase tracking-widest text-sm mb-4">
+          Deployment Framework
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-8">
+          The 90-Day Emergence Cycle
+        </h2>
+
+        <p class="text-gray-400 text-lg leading-relaxed">
+          The corridor develops through phased operational emergence,
+          prioritizing governance stability before technical scale.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8">
+
+        <div class="glass rounded-3xl p-8">
+          <span class="text-sm uppercase tracking-widest text-green-300">
+            Phase 1
+          </span>
+
+          <h3 class="text-3xl font-bold mt-4 mb-6">
+            Emergence
+          </h3>
+
+          <ul class="space-y-4 text-gray-400">
+            <li>• Atomic unit formation</li>
+            <li>• Governance readiness</li>
+            <li>• Baseline profiling</li>
+            <li>• Operational onboarding</li>
+          </ul>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <span class="text-sm uppercase tracking-widest text-green-300">
+            Phase 2
+          </span>
+
+          <h3 class="text-3xl font-bold mt-4 mb-6">
+            Synchronization
+          </h3>
+
+          <ul class="space-y-4 text-gray-400">
+            <li>• Shared visibility</li>
+            <li>• Coordinated timing</li>
+            <li>• Throughput forecasting</li>
+            <li>• Biomass aggregation</li>
+          </ul>
+        </div>
+
+        <div class="glass rounded-3xl p-8">
+          <span class="text-sm uppercase tracking-widest text-green-300">
+            Phase 3
+          </span>
+
+          <h3 class="text-3xl font-bold mt-4 mb-6">
+            Fulfillment
+          </h3>
+
+          <ul class="space-y-4 text-gray-400">
+            <li>• Industrial coordination</li>
+            <li>• Post-harvest logistics</li>
+            <li>• Fulfillment scheduling</li>
+            <li>• Corridor replication readiness</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section id="vision" class="py-28 border-t section-divider">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+
+      <p class="text-green-300 uppercase tracking-widest text-sm mb-4">
+        Long-Term Vision
+      </p>
+
+      <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-10">
+        Resilient Agricultural-Industrial Corridors
+      </h2>
+
+      <p class="text-gray-400 text-xl leading-relaxed mb-12">
+        The TerraSync Corridor Initiative seeks to establish
+        interoperable territorial coordination systems capable
+        of linking governance, ecological continuity,
+        and industrial participation into synchronized rural infrastructure.
+      </p>
+
+      <div class="glass rounded-3xl p-12">
+        <blockquote class="text-2xl md:text-3xl font-semibold leading-relaxed">
+          “The future belongs to systems that restore continuity
+          between humanity, ecology, and production.”
+        </blockquote>
+
+        <p class="mt-8 text-gray-500">
+          — Manifesto of Emancipation
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 border-t section-divider">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-8">
+        Partnership & Collaboration
+      </h2>
+
+      <p class="text-gray-400 text-lg leading-relaxed mb-10">
+        Seeking alignment with cooperatives,
+        municipalities, industrial buyers,
+        academic institutions,
+        and territorial infrastructure partners.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#"
+           class="bg-green-500 text-black px-8 py-4 rounded-full font-semibold hover:bg-green-400 transition">
+          Schedule Discussion
+        </a>
+
+        <a href="#"
+           class="border border-white/20 px-8 py-4 rounded-full hover:bg-white hover:text-black transition">
+          Download Concept Note
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t section-divider py-10">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between gap-6 text-sm text-gray-500">
+
+      <div>
+        © 2026 TerraSync Corridor Initiative
+      </div>
+
+      <div class="flex gap-6">
+        <a href="#" class="hover:text-white transition">Privacy</a>
+        <a href="#" class="hover:text-white transition">LinkedIn</a>
+        <a href="#" class="hover:text-white transition">Contact</a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
